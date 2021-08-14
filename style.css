@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: #051827;
+  font-family: "Roboto", sans-serif;
+}
+.main-div {
+  background: url("./20424665.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profile-card {
+  width: 60vw;
+  height: 65vh;
+  border-radius: 1.5rem;
+  background-color: #f4fbff;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 #0094e971;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 2;
+}
+
+h4,
+span {
+  font-family: "Baloo 2", cursive;
+}
+
+.bo-right {
+  border-right: 2.5px solid #7adcff;
+}
+
+.bo-down {
+  border-bottom: 2.5px solid #7adcff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.dp-pic {
+  position: relative;
+}
+
+.dp-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  width: 100%;
+}
